@@ -20,7 +20,7 @@ function App() {
           </ReactBootstrap.Nav>
         </ReactBootstrap.Navbar.Collapse>
       </ReactBootstrap.Navbar>
-      <Route path='/projects' component={Projects}/>
+      <Route path={process.env.PUBLIC_URL + '/projects'} component={Projects}/>
       </div>
     </Router>
   );
