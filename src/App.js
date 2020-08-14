@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import * as ReactBootstrap from 'react-bootstrap';
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
       <ReactBootstrap.Navbar bg="light" expand="sm" sticky="top">
         <ReactBootstrap.Navbar.Brand href="home">Vlad Seremet</ReactBootstrap.Navbar.Brand>
@@ -20,7 +20,7 @@ function App() {
           </ReactBootstrap.Nav>
         </ReactBootstrap.Navbar.Collapse>
       </ReactBootstrap.Navbar>
-      <Route path={process.env.PUBLIC_URL + '/projects'} component={Projects}/>
+      <Route path='/projects' component={Projects}/>
       </div>
     </Router>
   );

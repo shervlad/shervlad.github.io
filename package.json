@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "http://shervlad.github.io/",
+  "homepage": "https://shervlad.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
