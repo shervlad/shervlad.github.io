@@ -16,11 +16,11 @@ function App() {
           <ReactBootstrap.Nav className="ml-auto">
             <ReactBootstrap.Nav.Link href="resume" className="link">Resume</ReactBootstrap.Nav.Link>
             <ReactBootstrap.Nav.Link href="blog">Blog</ReactBootstrap.Nav.Link>
-            <ReactBootstrap.Nav.Link href="projects">Projects</ReactBootstrap.Nav.Link>
+            <ReactBootstrap.Nav.Link href="#projects">Projects</ReactBootstrap.Nav.Link>
           </ReactBootstrap.Nav>
         </ReactBootstrap.Navbar.Collapse>
       </ReactBootstrap.Navbar>
-      <Route path='/projects' component={Projects}/>
+      <Route path='/#projects' component={Projects}/>
       </div>
     </Router>
   );
