@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.31988c72.chunk.css",
-    "main.js": "/static/js/main.31f393e8.chunk.js",
-    "main.js.map": "/static/js/main.31f393e8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
-    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
-    "static/js/2.97d3cd18.chunk.js": "/static/js/2.97d3cd18.chunk.js",
-    "static/js/2.97d3cd18.chunk.js.map": "/static/js/2.97d3cd18.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.45193140ca96ba724171dcf38e189773.js": "/precache-manifest.45193140ca96ba724171dcf38e189773.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
-    "static/css/main.31988c72.chunk.css.map": "/static/css/main.31988c72.chunk.css.map",
-    "static/js/2.97d3cd18.chunk.js.LICENSE.txt": "/static/js/2.97d3cd18.chunk.js.LICENSE.txt"
+    "main.css": "/shervlad.github.io/static/css/main.31988c72.chunk.css",
+    "main.js": "/shervlad.github.io/static/js/main.b3ca7c62.chunk.js",
+    "main.js.map": "/shervlad.github.io/static/js/main.b3ca7c62.chunk.js.map",
+    "runtime-main.js": "/shervlad.github.io/static/js/runtime-main.ef7dbf90.js",
+    "runtime-main.js.map": "/shervlad.github.io/static/js/runtime-main.ef7dbf90.js.map",
+    "static/css/2.11829350.chunk.css": "/shervlad.github.io/static/css/2.11829350.chunk.css",
+    "static/js/2.97d3cd18.chunk.js": "/shervlad.github.io/static/js/2.97d3cd18.chunk.js",
+    "static/js/2.97d3cd18.chunk.js.map": "/shervlad.github.io/static/js/2.97d3cd18.chunk.js.map",
+    "index.html": "/shervlad.github.io/index.html",
+    "precache-manifest.bd9a9f1f4182fbb8e8577094b8639e02.js": "/shervlad.github.io/precache-manifest.bd9a9f1f4182fbb8e8577094b8639e02.js",
+    "service-worker.js": "/shervlad.github.io/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/shervlad.github.io/static/css/2.11829350.chunk.css.map",
+    "static/css/main.31988c72.chunk.css.map": "/shervlad.github.io/static/css/main.31988c72.chunk.css.map",
+    "static/js/2.97d3cd18.chunk.js.LICENSE.txt": "/shervlad.github.io/static/js/2.97d3cd18.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3374ac37.js",
+    "static/js/runtime-main.ef7dbf90.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.97d3cd18.chunk.js",
     "static/css/main.31988c72.chunk.css",
-    "static/js/main.31f393e8.chunk.js"
+    "static/js/main.b3ca7c62.chunk.js"
   ]
 }
