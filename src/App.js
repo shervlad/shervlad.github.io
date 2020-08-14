@@ -10,13 +10,13 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
       <ReactBootstrap.Navbar bg="light" expand="sm" sticky="top">
-        <ReactBootstrap.Navbar.Brand href="home">Vlad Seremet</ReactBootstrap.Navbar.Brand>
+        <ReactBootstrap.Navbar.Brand href='https://www.shervlad.github.io/'>Vlad Seremet</ReactBootstrap.Navbar.Brand>
         <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
           <ReactBootstrap.Nav className="ml-auto">
-            <ReactBootstrap.Nav.Link href="resume" className="link">Resume</ReactBootstrap.Nav.Link>
-            <ReactBootstrap.Nav.Link href="blog">Blog</ReactBootstrap.Nav.Link>
-            <ReactBootstrap.Nav.Link href="projects">Projects</ReactBootstrap.Nav.Link>
+            <Link to="resume" className="link">Resume</Link>
+            <Link to="blog">Blog</Link>
+            <Link to="projects">Projects</Link>
           </ReactBootstrap.Nav>
         </ReactBootstrap.Navbar.Collapse>
       </ReactBootstrap.Navbar>
