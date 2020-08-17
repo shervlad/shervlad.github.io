@@ -59,10 +59,15 @@ h2 {
 .main-container {
     /* position: fixed; */
     margin: auto;
-    width: 70%;
+    width: 1100px;
     border: 2px solid black;
     padding: 10px;
     border-radius: 10px;
+}
+@media screen and (max-width: 1100px) {
+    .main-container {
+        width: 100%;
+    }
 }
 
 .left {
