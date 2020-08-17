@@ -61,7 +61,7 @@ h2 {
     margin: auto;
     width: 1100px;
     border: 2px solid black;
-    padding: 10px;
+    padding: 30px;
     border-radius: 10px;
     min-height: 1000px;
 }
@@ -98,4 +98,10 @@ h2 {
 .pdf-frame {
   width:60vw;
   height: 70vw;
+}
+
+
+.subtitle {
+    font-size: 14px;
+    font-style: italic;
 }
