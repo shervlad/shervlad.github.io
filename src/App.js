@@ -2,25 +2,39 @@ import React from 'react';
 import './App.css';
 // import Navbar from './components/navbar';
 import Projects from './components/projects';
-import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Link, Route, NavLink} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as ReactBootstrap from 'react-bootstrap';
 function App() {
+  var activelink=0;
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <div className="App">
-      <ReactBootstrap.Navbar bg="light" expand="sm" sticky="top">
-        <ReactBootstrap.Navbar.Brand href='https://www.shervlad.github.io/'>Vlad Seremet</ReactBootstrap.Navbar.Brand>
-        <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
-          <ReactBootstrap.Nav className="ml-auto">
-            <Link to="resume" className="link">Resume</Link>
-            <Link to="blog">Blog</Link>
-            <Link to="projects">Projects</Link>
-          </ReactBootstrap.Nav>
-        </ReactBootstrap.Navbar.Collapse>
-      </ReactBootstrap.Navbar>
-      <Route path='/projects' component={Projects}/>
+      <div className="App main-container">
+        <div className="navbar">
+        <div className="left">
+          <h2>Vlad Seremet</h2>
+        </div>
+        <div className="right">
+              <div className="navlink-container"> 
+              <NavLink to="/resume" className="navlink" activeStyle={{borderBottom: '1px solid black', padding: '2px'}}> 
+                Resume 
+              </NavLink>
+              </div>
+              <div className="navlink-container"> 
+              <NavLink to="/projects" className="navlink" activeStyle={{borderBottom: 'solid 1px black', padding: '2px'}} > 
+              Projects
+              </NavLink>
+              </div>
+              <div className="navlink-container"> 
+              <NavLink to="/blog" className="navlink" activeStyle={{borderBottom: 'solid 1px black', padding: '2px'}}> 
+                Blog
+              </NavLink>
+              </div>
+
+        </div>
+
+        </div>
+          <Route path='/projects' component={Projects}/>
       </div>
     </Router>
   );
