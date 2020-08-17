@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 // import Navbar from './components/navbar';
 import Projects from './components/projects';
+import Resume from './components/resume';
 import {BrowserRouter as Router, Link, Route, NavLink} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as ReactBootstrap from 'react-bootstrap';
@@ -34,6 +35,7 @@ function App() {
         </div>
 
         </div>
+          <Route path='/resume'   component={Resume}/>
           <Route path='/projects' component={Projects}/>
       </div>
     </Router>
