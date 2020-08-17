@@ -17,7 +17,7 @@ function App() {
         </div>
         <div className="right">
               <div className="navlink-container"> 
-              <NavLink to="/resume" className="navlink" activeStyle={{borderBottom: '1px solid black', padding: '2px'}}> 
+              <NavLink to="/" className="navlink" activeStyle={{borderBottom: '1px solid black', padding: '2px'}} exact> 
                 Resume 
               </NavLink>
               </div>
@@ -35,7 +35,7 @@ function App() {
         </div>
 
         </div>
-          <Route path='/resume'   component={Resume}/>
+          <Route path='/'   component={Resume} exact/>
           <Route path='/projects' component={Projects}/>
       </div>
     </Router>

@@ -11,7 +11,7 @@ export default class Projects extends Component {
                 <Col lg={3}>
                 <Nav variant="tabs" className="flex-column">
                     <Nav.Item>
-                        <NavLink   to="/projects/maze_solver" className="navlink navlink-left"
+                        <NavLink   to="/projects" className="navlink navlink-left"
                                    activeStyle={{
                                         border: '1px solid black', 
                                         padding: '2px',
@@ -37,7 +37,7 @@ export default class Projects extends Component {
                 </Col>
                 <Col lg={9}>
                 <Tab.Content>
-                    <Route path="/projects/maze_solver" component={MazeSolverProject} exact/>
+                    <Route path="/projects/" component={MazeSolverProject} exact/>
                     <Route path="/projects/harvestr" component={HarvestRProject} exact/>
                 </Tab.Content>
                 </Col>
