@@ -15,10 +15,53 @@ export default class Resume extends Component {
                     <td width="80%">
                         <b>Massachusetts Institute of Technology </b><br/>
                         <div className="subtitle">
-                            Relevant Coursework: Robotics: Science and Systems, Performance Engineering of Software Systems*, 
-                            Software Systems Engineering*, Computation Structures*, Elements of Software Construction*, 
-                            Machine Learning, Fundamentals of Programming, Introduction to Algorithms, 
-                            Introduction to Data Science, Mathematics for Computer Science, Computational Sensorimotor Learning*
+                            Relevant Coursework: 
+                            &nbsp;
+                            <a href="https://mc.ai/6-141-robotics-science-systems-a-review/" target="_blank">
+                                Robotics: Science and Systems, 
+                            </a>
+                            &nbsp;
+                            
+                            <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/" target="_blank">
+                                Performance Engineering of Software Systems*, 
+                            </a>
+                            &nbsp;
+                            <a href="http://web.mit.edu/6.033/www/general.shtml" target="_blank">
+                            Computer Systems Engineering*, 
+                            </a>
+                            &nbsp;
+                            <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-software-construction-spring-2016/" target="_blank">
+                            Elements of Software Construction*, 
+                            </a>
+                            &nbsp;
+                            <a href="http://courses.csail.mit.edu/6.036/" target="_blank">
+                            Machine Learning, 
+                            </a>
+                            &nbsp;
+                            <a href="https://py.mit.edu/fall20" target="_blank">
+                            Fundamentals of Programming,
+                            </a>
+                            &nbsp;
+                            <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/" target="_blank">
+                            Introduction to Algorithms, 
+                            </a>
+                            &nbsp;
+                            <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/" target="_blank">
+                            Introduction to Data Science, 
+                            </a>
+                            &nbsp;
+                            <a href="https://courses.csail.mit.edu/6.042/spring18/classinfo.shtml" target="_blank">
+                            Mathematics for Computer Science, 
+                            </a>
+                            &nbsp;
+                            <a href="https://www.eecs.mit.edu/academics-admissions/academic-information/subject-updates-spring-2020/6884" target="_blank">
+                            Computational Sensorimotor Learning*
+                            </a>
+                            &nbsp;
+                            <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/" target="_blank">
+                            Computation Structures*, 
+                            </a>
+                            <br/>
                             * - project based class
                         </div>
                         
@@ -32,8 +75,9 @@ export default class Resume extends Component {
                 <tr>
                     <td width="80%">
                         <b>
-                        MIT D’Arbeloff Laboratory
-
+                            <a href="http://darbelofflab.mit.edu/" target="_blank">
+                                MIT D’Arbeloff Laboratory
+                            </a>
                         </b>
 
                         <div className="subtitle">
@@ -46,7 +90,11 @@ export default class Resume extends Component {
                 </tr>
                 <tr>
                     <ul>
-                        <li> Programmed a UR robotic arm as part of an interactive apprenticeship program called TeachBot. </li>
+                        <li> Programmed a UR robotic arm as part of &nbsp;
+                            <a href="http://www.mit.edu/~nselby/teachbot.html" target="_blank">
+                                TeachBot - an interactive apprenticeship program.
+                            </a>
+                            </li>
                         <li> Worked with ROS, MoveIt, ReactJs, ExpressJs.</li>
                     </ul>
                 </tr>
@@ -82,7 +130,9 @@ export default class Resume extends Component {
                 <tr>
                     <td width="80%">
                         <b>
-                            MIT Aerospace Controls Lab
+                            <a href="http://acl.mit.edu/" target="_blank">
+                                MIT Aerospace Controls Lab
+                            </a>
                         </b>
 
                         <div className="subtitle">
@@ -100,8 +150,12 @@ export default class Resume extends Component {
                     <ul>
                         <li> Created a pipeline for automated acquisition, and processing of image datasets. 
 </li>
-                        <li> Designed and tested algorithms for navigating through crowds while avoiding collisions.
-</li>
+                        <li> Designed and tested algorithms for 
+                            &nbsp;
+                            <a href="http://acl.mit.edu/projects/socially-acceptable-navigation" target="_blank">
+                                navigating through crowds while avoiding collisions.
+                            </a>
+                        </li>
                     </ul>
                 </tr>
 
@@ -114,7 +168,10 @@ export default class Resume extends Component {
                         </b>
 
                         <div className="subtitle">
-                            Teacher Assistant for 6.009 (fundamentals of programming using Python)
+                            Teacher Assistant for  &nbsp;
+                            <a href="https://py.mit.edu/fall20" target="_blank">
+                                6.009 (fundamentals of programming using Python)
+                            </a>
                         </div>
                         
                         </td>
@@ -137,7 +194,9 @@ export default class Resume extends Component {
                 <tr>
                     <td width="80%">
                         <b>
-                            OneShore Energy GmbH
+                            <a href="https://oneshore.com/" target="_blank">
+                                OneShore Energy GmbH
+                            </a>
                         </b>
 
                         <div className="subtitle">
@@ -167,7 +226,9 @@ export default class Resume extends Component {
                 <tr>
                     <td width="80%">
                         <b>
-                            Gordon Engineering Leadership Program
+                            <a href="https://gelp.mit.edu/" target="_blank">
+                                Gordon Engineering Leadership Program
+                            </a>
                         </b>
 
                         <div className="subtitle">
@@ -181,7 +242,9 @@ export default class Resume extends Component {
                 <tr>
                     <td width="80%">
                         <b>
-                            Wave Week Moldova – a leadership program for students
+                            <a href="https://waveweekmoldova.wordpress.com/" target="_blank">
+                                Wave Week Moldova – a leadership program for students
+                            </a>
 
                         </b>
 
@@ -201,7 +264,11 @@ export default class Resume extends Component {
                 <tr>
                     <td width="80%">
                         <b>
-                            English Debate Club at the American Resource Center
+                            English Debate Club at the 
+                            &nbsp;
+                            <a href="https://americahouse.md/" target="_blank">
+                                American Resource Center
+                            </a>
                         </b>
 
                         <div className="subtitle">
