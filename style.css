@@ -8,10 +8,10 @@ h2 {
     text-align: center;
 }
 .navlink {
-    padding: 2px;
+    padding: 2px 10px 2px 10px;
     display: inline-block;
     color: black;
-    font-size: large;
+    font-size: 20px;
 }
 
 .navlink-left {
