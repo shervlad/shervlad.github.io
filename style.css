@@ -1,3 +1,96 @@
-.nav-link:hover {
-  text-decoration: underline;
+
+* {
+  box-sizing: border-box;
+}
+
+
+h2 {
+    text-align: center;
+}
+.navlink {
+    padding: 2px;
+    display: inline-block;
+    color: black;
+    font-size: large;
+}
+
+.navlink-left {
+    width: 100%;
+    padding-top: 5px;
+}
+.navlink:hover {
+    text-decoration: none;
+}
+
+.ProjectsContainer {
+    position:relative;
+    width: 100%;
+}
+
+.ProjectsContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .ProjectsNav {
+    width: 100%;
+  }
+  .ProjectBody {
+      width: 100%;
+  }
+}
+
+.ProjectsNav {
+    float:left;
+    width: 20%;
+}
+
+.ProjectBody {
+    float:left;
+    width: 80%;
+}
+
+.navlink-container {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
+.main-container {
+    /* position: fixed; */
+    margin: auto;
+    width: 70%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.left {
+    display: inline-block;
+    float: left;
+}
+
+.right {
+    display: inline-block;
+    float: right;
+
+}
+
+
+.video-wrapper {
+    padding: 10px;
+    background: white;
+    box-sizing: border-box;
+    /* resize: horizontal; */
+    border: 1px dashed;
+    overflow: auto;
+    max-width: 100%;
+    height: calc(100vh - 16px);
+}
+
+
+.video-frame {
+  width: 100%;
+  height: 100%;
+  background: gold; /** <-- For the demo **/
 }
