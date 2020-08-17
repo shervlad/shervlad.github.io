@@ -23,22 +23,16 @@ function App() {
             <h2>Vlad Seremet</h2>
           </NavLink>
         </div>
-        <div className="right">
-              <div className="navlink-container"> 
-              <NavLink to="/resume" className="navlink" activeStyle={{borderBottom: '1px solid black', padding: '2px'}} exact> 
+        <div className="right" style={{fontSize:'20'}}>
+              <NavLink to="/resume" className="navlink" activeStyle={{borderBottom: '1px solid black'}} exact> 
                 Resume 
               </NavLink>
-              </div>
-              <div className="navlink-container"> 
-              <NavLink to="/projects/maze_solver" className="navlink" activeStyle={{borderBottom: 'solid 1px black', padding: '2px'}} exact> 
+              <NavLink to="/projects/maze_solver" className="navlink" activeStyle={{borderBottom: 'solid 1px black'}} exact> 
               Projects
               </NavLink>
-              </div>
-              <div className="navlink-container"> 
-              <NavLink to="/blog" className="navlink" activeStyle={{borderBottom: 'solid 1px black', padding: '2px'}}> 
+              <NavLink to="/blog" className="navlink" activeStyle={{borderBottom: 'solid 1px black'}}> 
                 Blog
               </NavLink>
-              </div>
 
         </div>
 
