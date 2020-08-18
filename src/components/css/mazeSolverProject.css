@@ -4,9 +4,16 @@
     float: right;
     margin: 20px;
 }
+.onethirdscreen {
+    width: 30%;
+    float: right;
+    margin: 20px;
+}
 @media screen and (max-width: 800px) {
     .halfscreen {
         width: 100%;
-        border: 1px solid black;
+    }
+    .onethirdscreen {
+        width: 100%;
     }
 }
