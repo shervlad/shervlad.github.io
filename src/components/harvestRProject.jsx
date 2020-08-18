@@ -10,8 +10,37 @@ export default class HarvestRProject extends Component {
       }}>
         <h2>HarvesR: using reinforcement learning for fruit picking</h2>
 
-        <h4>Introduction
-        </h4>
+        <h5> Table of Contents:</h5>
+            <ol>
+            <li><a href="#1">Introduction</a></li>
+            <li><a href="#2">Robot Architectore and the Unity Simulation Environment</a>
+                <ol type="a">
+                    <li><a href="#2a">Robot Architecture</a></li>
+                    <li><a href="#2b">The Simulation Environment</a></li> 
+                </ol>
+            </li>
+
+            <li><a href="#3">Internal Model Representation and Planning</a>
+                <ol type="a">
+                    <li><a href="#3a">Overview</a></li>
+                    <li><a href="#3b">Encoder-Decoder Architecture</a></li> 
+                    <li><a href="#3c">Forward Model</a></li> 
+                    <li><a href="#3d">Planning</a></li> 
+                </ol>
+            </li>
+
+            <li><a href="#4">Control</a></li>
+            <li><a href="#5">Training</a>
+                <ol type="a">
+                    <li><a href="#5a">Pre-Training</a></li>
+                    <li><a href="#5b">Unity and the training setup</a></li> 
+                </ol>
+            </li>
+            <li><a href="#6">Conclusion</a></li>
+
+            </ol>
+
+        <h4 id="1">1. Introduction </h4>
         <div>
           <div id="fig1" className="halfscreen">
             <img
@@ -68,8 +97,8 @@ export default class HarvestRProject extends Component {
           </p>
         </div>
 
-        <h4>1. Robot architecture and the Unity simulation environment</h4>
-        <h5>1.1 Robot Architecture</h5>
+        <h4 id="2">2. Robot architecture and the Unity simulation environment</h4>
+        <h5 id="2a">2.a Robot Architecture</h5>
         <div>
 
           <div id="fig2" className="halfscreen">
@@ -104,8 +133,8 @@ export default class HarvestRProject extends Component {
             illustrated in Fig.3.
           </p>
         </div>
-        <h5>
-          1.2 The Simulation Environment
+        <h5 id="2b">
+          2.b The Simulation Environment
         </h5>
         <p>
           One of the main hurdles in the real-world application of reinforcement learning
@@ -157,7 +186,7 @@ export default class HarvestRProject extends Component {
 
           </ul>
         </p>
-        <h4>2. Internal model representation and planning</h4>
+        <h4 id="3">3. Internal model representation and planning</h4>
         <div>
           <div>
 
@@ -202,7 +231,7 @@ export default class HarvestRProject extends Component {
             </div>
           </div>
 
-          <h5>2.1 Overview
+          <h5 id="3a">3.a Overview
           </h5>
           <p>
             The HarvestR architecture assumes one camera mounted above the gripper, so that
@@ -249,7 +278,7 @@ export default class HarvestRProject extends Component {
         </div>
 
         <div style={{ display: "inline-block" }}>
-          <h5>2.2 Econder-Decoder Architecture</h5>
+          <h5 id="3b">3.b Econder-Decoder Architecture</h5>
           <p>
             First, a disentangled variational encoder [5] is implemented - very similar to
             the one used in [2], except unlike an autoencoder, the input and output are
@@ -285,7 +314,7 @@ export default class HarvestRProject extends Component {
             input to the forward model, policy network and value function.
           </p>
 
-          <h5>2.3 Forward Model</h5>
+          <h5 id="3c">3.c Forward Model</h5>
           <p>
             The function of the forward model is essentially to predict the future based on
             past experience. Formally, a forward model is a function M parametrized by  ,
@@ -301,7 +330,7 @@ export default class HarvestRProject extends Component {
             neural network.
           </p>
 
-          <h5>2.4 Planning</h5>
+          <h5 id="3d">3d Planning</h5>
           <p>
             The joint positions are appended to the latent vector and the resulting vector
             is fed into the policy network and 5 actions are sampled. These actions are
@@ -329,7 +358,11 @@ export default class HarvestRProject extends Component {
             </div>
           </div>
         </div>
-        <h4>3. Control</h4>
+
+        <br/>
+        <br/>
+        <br/>
+        <h4 id="4">4. Control</h4>
         <p>
           At the highest level, the control loop is essentially a state machine (Fig. 6)
           The states colored in blue use policies obtained through reinforcement learning
@@ -378,8 +411,11 @@ export default class HarvestRProject extends Component {
             </div>
           </div>
 
-        <h4>4. Training</h4>
-        <h5>4.1 Pretraining</h5>
+        <br/>
+        <br/>
+        <br/>
+        <h4 id="5">5. Training</h4>
+        <h5 id="5a">5.a Pretraining</h5>
         <p>
           Since training the policy and value function is dependent on the encoder, the
           segmentation convolutional net and the forward model, these need to be trained
@@ -421,9 +457,8 @@ export default class HarvestRProject extends Component {
 
         </p>
 
-        <h5>
-          A few words about Unity and the training setup:
-        </h5>
+        <br/>
+        <h5 id="5b"> 5.b A few words about Unity and the training setup: </h5>
         <p>
           For the Unity ML-agents python API, a gym-like wrapper, UnityEnvWrapper, was
           implemented in order to make it easier to interact with agents. In Unity it is
@@ -455,7 +490,7 @@ export default class HarvestRProject extends Component {
           and semantic labels.
 
         </p>
-        <h4>Conclusion</h4>
+        <h4 id="6"> 6. Conclusion</h4>
         <p>
           Despite the immense progress in Reinforcement Learning and Machine Learning in
           general, a seemingly simple task such as fruit picking still remains elusive.
@@ -467,6 +502,9 @@ export default class HarvestRProject extends Component {
           increased by the use of a forward model for look-ahead .
         </p>
 
+        <br/>
+        <br/>
+        <br/>
         <h4>Bibliography</h4>
         [1] Bac, C. Wouter, Eldert J. van Henten, Jochen Hemming, and Yael Edan.
         “Harvesting Robots for High-Value Crops: State-of-the-Art Review and Challenges
