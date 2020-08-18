@@ -7,7 +7,7 @@ export default class Greeting extends Component {
     return (
         <div style={
             {
-                background: "url('/bg.JPG')",
+                background: "url('/background.jpg')",
                 backgroundSize: 'contain',
                 backgroundRepeat: 'no-repeat',
                 width:'100%',
