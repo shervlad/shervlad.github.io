@@ -44,7 +44,7 @@ export default class HarvestRProject extends Component {
         <div>
           <div id="fig1" className="halfscreen">
             <img
-              src={'/harvestr/fig1.jpg'}
+              src={'/harvestr/fig1.png'}
               style={{
               width: '100%'
             }}/>
@@ -103,7 +103,7 @@ export default class HarvestRProject extends Component {
 
           <div id="fig2" className="halfscreen">
             <img
-              src={'/harvestr/fig2.jpg'}
+              src={'/harvestr/fig2.png'}
               style={{
               width: '100%'
             }}/>
@@ -193,31 +193,31 @@ export default class HarvestRProject extends Component {
             <div id="fig3" className="onethirdscreen">
               a)
               <img
-                src={'/harvestr/fig3a.jpg'}
+                src={'/harvestr/fig3a.png'}
                 style={{
                 width: '100%'
               }}/>
               b)
               <img
-                src={'/harvestr/fig3b.jpg'}
+                src={'/harvestr/fig3b.png'}
                 style={{
                 width: '100%'
               }}/>
               c)
               <img
-                src={'/harvestr/fig3c.jpg'}
+                src={'/harvestr/fig3c.png'}
                 style={{
                 width: '100%'
               }}/>
               d)
               <img
-                src={'/harvestr/fig3d.jpg'}
+                src={'/harvestr/fig3d.png'}
                 style={{
                 width: '100%'
               }}/>
               e)
               <img
-                src={'/harvestr/fig3e.jpg'}
+                src={'/harvestr/fig3e.png'}
                 style={{
                 width: '100%'
               }}/>
@@ -291,7 +291,7 @@ export default class HarvestRProject extends Component {
           </p>
           <div id="fig5" className="halfscreen">
             <img
-              src={'/harvestr/fig5.jpg'}
+              src={'/harvestr/fig5.png'}
               style={{
               width: '100%'
             }}/>
@@ -347,7 +347,7 @@ export default class HarvestRProject extends Component {
           </p>
           <div id="fig4">
             <img
-              src={'/harvestr/fig4.jpg'}
+              src={'/harvestr/fig4.png'}
               style={{
               width: '100%'
             }}/>
@@ -400,7 +400,7 @@ export default class HarvestRProject extends Component {
         </p>
           <div id="fig6">
             <img
-              src={'/harvestr/fig6.jpg'}
+              src={'/harvestr/fig6.png'}
               style={{
               width: '100%'
             }}/>
