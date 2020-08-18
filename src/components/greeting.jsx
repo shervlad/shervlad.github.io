@@ -7,7 +7,7 @@ export default class Greeting extends Component {
     return (
         <div style={
             {
-                background: "url('/background.jpg')",
+                background: "url('/background.png')",
                 backgroundSize: 'contain',
                 backgroundRepeat: 'no-repeat',
                 width:'100%',
@@ -15,23 +15,16 @@ export default class Greeting extends Component {
                 color: 'white'
             }
         }>
-            <div style={
-                {
-                    padding: '10px 0px 0px 10px',
-                    textAlign: 'left',
-                    display: 'inline-block',
-                    float: 'left',
-                    width: '65%',
-                    fontSize: '3vw'
-            
-                }
-            }>
-            <b>Main interests:</b> 
-            <ul>
-                <li>Robotics</li>
-                <li>Reinforcement Learning</li>
-                <li>Computer Vision</li>
-            </ul>
+
+
+            <div className="introTextBox">
+                <p>
+                    Hi, my name is Vlad and I'm a recent MIT graduate specializing in robotics and artificial intelligence. My main interest 
+                    is in making robots that can do useful physical tasks, such as picking irregular objects, harvesting and assembly. To that end, I study Reinforcemnt Learning, 
+                    Immitation Learning, Computer Vision, Classical Planning, Control Theory and Simulation.
+                    <br/>
+                    I you are working on similar things, feel free to contact me: seremetv AT mit.edu
+                </p>
             </div>
         </div>
     )

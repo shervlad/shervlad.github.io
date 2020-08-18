@@ -330,7 +330,7 @@ export default class HarvestRProject extends Component {
             neural network.
           </p>
 
-          <h5 id="3d">3d Planning</h5>
+          <h5 id="3d">3.d Planning</h5>
           <p>
             The joint positions are appended to the latent vector and the resulting vector
             is fed into the policy network and 5 actions are sampled. These actions are
@@ -456,6 +456,19 @@ export default class HarvestRProject extends Component {
           made, the data is discarded.
 
         </p>
+          <div id="fig7">
+            <img
+              src={'/harvestr/fig8.png'}
+              style={{
+              width: '100%'
+            }}/>
+            <div>
+              <b>Fig. 7 </b>
+              &nbsp; 
+              Training multiple environments in parallel. Each platform is a
+              separate training environment.
+            </div>
+          </div>
 
         <br/>
         <h5 id="5b"> 5.b A few words about Unity and the training setup: </h5>
