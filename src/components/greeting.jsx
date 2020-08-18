@@ -20,10 +20,10 @@ export default class Greeting extends Component {
             <div className="introTextBox">
                 <p>
                     Hi, my name is Vlad and I'm a recent MIT graduate specializing in robotics and artificial intelligence. My main interest 
-                    is in making robots that can do useful physical tasks, such as picking irregular objects, harvesting and assembly. To that end, I study Reinforcemnt Learning, 
-                    Immitation Learning, Computer Vision, Classical Planning, Control Theory and Simulation.
+                    is in programming autonomous robots that can do useful physical tasks, such as picking irregular objects, harvesting and assembly. To that end, I study Control Theory, Reinforcemnt Learning, 
+                    Immitation Learning, Computer Vision, Planning, and Simulation.
                     <br/>
-                    I you are working on similar things, feel free to contact me: seremetv AT mit.edu
+                    If you are working on similar things, feel free to contact me: seremetv AT mit.edu
                 </p>
             </div>
         </div>
