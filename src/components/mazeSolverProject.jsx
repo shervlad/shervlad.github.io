@@ -9,6 +9,7 @@ export default class MazeSolverProject extends Component {
         textAlign: "justify"
       }}>
         <h2> Wall3D: Maze Solving Challenge </h2>
+        <p align="middle"><i>Team 9: Talia Pelts, Kevin Carlson, Jonathan Samayoa, Susan Ni, Vlad Seremet</i></p>
 
         <img style={
           {
@@ -70,6 +71,25 @@ export default class MazeSolverProject extends Component {
         <p>
             Nevertheless, after dozens of hours of relentless tweaking, we got pretty good results. This was our final run:
         </p>
+
+        <div style={{width:"100%", border:'1px solid black', position:'relative'}}>
+          <div style={{float:'left', width:'50%'}}>
+            <div>Rviz visualization:</div> 
+            <iframe width="100%" src="https://www.youtube.com/embed/Otesxus6TXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div style={{float:'left', width:'50%'}}>
+            <div>Reality:</div> 
+            <iframe width="100%" src="https://www.youtube.com/embed/alsAfsBNwQI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <h4>Conclusion</h4>
+        <p>
+          RSS was one of the best classes I took at MIT. It was very demanding (aprox. 20 hours/week on average) but the amount of knowledge per hour learned in this class was unparalleled.
+          Most of the time was spent together with the team working on lab assignments. I was personally responsible for slam (using cartographer) and path planning (A*). Other members of the team were responsible for safety controllers, path following (pure pursuit) and a plan B - a simpler implementation based on wall-following. 
+        </p> 
+
+        <img style={{width:'100%'}} src={"/maze_solver/team.jpg"}/>
       </div>
     )
   }

@@ -15,7 +15,6 @@ export default class Projects extends Component {
                         <NavLink   to="/projects/maze_solver" className="navlink navlink-left"
                                    activeStyle={{
                                         border: '1px solid black', 
-                                        padding: '2px',
                                         borderRadius: '10px'
                                         }}
                                     exact>
@@ -27,7 +26,6 @@ export default class Projects extends Component {
                         <NavLink   to="/projects/harvestr" className="navlink navlink-left"
                                    activeStyle={{
                                         border: '1px solid black', 
-                                        padding: '2px',
                                         borderRadius: '10px'
                                         }}
                                     exact>
@@ -38,7 +36,6 @@ export default class Projects extends Component {
                         <NavLink   to="/projects/platformer" className="navlink navlink-left"
                                    activeStyle={{
                                         border: '1px solid black', 
-                                        padding: '2px',
                                         borderRadius: '10px'
                                         }}
                                     exact>
