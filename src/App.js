@@ -10,11 +10,11 @@ import * as ReactBootstrap from 'react-bootstrap';
 function App() {
   var activelink=0;
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div className="App main-container">
         <div className="navbar">
         <div className="left">
-          <NavLink to="/" exact style={
+          <NavLink to={process.env.PUBLIC_URL + "/"} exact style={
             {
               color: 'black',
               textDecoration: 'none'
@@ -24,22 +24,22 @@ function App() {
           </NavLink>
         </div>
         <div className="right" style={{fontSize:'20'}}>
-              <NavLink to="/resume" className="navlink" activeStyle={{borderBottom: '1px solid black'}} exact> 
+              <NavLink to={process.env.PUBLIC_URL + "/resume"} className="navlink" activeStyle={{borderBottom: '1px solid black'}} exact> 
                 Resume 
               </NavLink>
-              <NavLink to="/projects" className="navlink" activeStyle={{borderBottom: 'solid 1px black'}}> 
+              <NavLink to={process.env.PUBLIC_URL + "/projects"} className="navlink" activeStyle={{borderBottom: 'solid 1px black'}}> 
               Projects
               </NavLink>
-              <NavLink to="/blog" className="navlink" activeStyle={{borderBottom: 'solid 1px black'}}> 
+              <NavLink to={process.env.PUBLIC_URL + "/blog"} className="navlink" activeStyle={{borderBottom: 'solid 1px black'}}> 
                 Blog
               </NavLink>
 
         </div>
 
         </div>
-          <Route path='/' component={Greeting} exact/>
-          <Route path='/resume'   component={Resume} exact/>
-          <Route path='/projects' component={Projects}/>
+          <Route path={process.env.PUBLIC_URL + '/'}         component={Greeting} exact/>
+          <Route path={process.env.PUBLIC_URL + '/resume'}   component={Resume} exact/>
+          <Route path={process.env.PUBLIC_URL + '/projects'} component={Projects}/>
       </div>
     </Router>
   );
